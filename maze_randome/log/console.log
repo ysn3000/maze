@@ -1,0 +1,381 @@
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Error: COMP96_0015: maze.vhd : (43, 2): ';' expected.
+# Error: COMP96_0015: maze.vhd : (47, 48): '=>' expected.
+# Error: COMP96_0029: maze.vhd : (47, 48): Expression expected.
+# Error: COMP96_0015: maze.vhd : (47, 48): ')' expected.
+# Error: COMP96_0015: maze.vhd : (139, 52): ';' expected.
+# Error: COMP96_0019: maze.vhd : (139, 52): Keyword 'end' expected.
+# Error: COMP96_0019: maze.vhd : (139, 54): Keyword 'case' expected.
+# Error: COMP96_0015: maze.vhd : (140, 55): ';' expected.
+# Error: COMP96_0019: maze.vhd : (140, 55): Keyword 'end' expected.
+# Error: COMP96_0019: maze.vhd : (140, 57): Keyword 'case' expected.
+# Error: COMP96_0019: maze.vhd : (142, 7): Keyword 'end' expected.
+# Error: COMP96_0015: maze.vhd : (144, 53): ';' expected.
+# Error: COMP96_0019: maze.vhd : (144, 53): Keyword 'end' expected.
+# Error: COMP96_0019: maze.vhd : (146, 7): Keyword 'end' expected.
+# Error: COMP96_0016: maze.vhd : (146, 12): Design unit declaration expected.
+# Compile failure 15 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Error: COMP96_0015: maze.vhd : (139, 52): ';' expected.
+# Error: COMP96_0019: maze.vhd : (139, 52): Keyword 'end' expected.
+# Error: COMP96_0019: maze.vhd : (139, 54): Keyword 'case' expected.
+# Error: COMP96_0015: maze.vhd : (140, 55): ';' expected.
+# Error: COMP96_0019: maze.vhd : (140, 55): Keyword 'end' expected.
+# Error: COMP96_0019: maze.vhd : (140, 57): Keyword 'case' expected.
+# Error: COMP96_0019: maze.vhd : (142, 7): Keyword 'end' expected.
+# Error: COMP96_0015: maze.vhd : (144, 53): ';' expected.
+# Error: COMP96_0019: maze.vhd : (144, 53): Keyword 'end' expected.
+# Error: COMP96_0019: maze.vhd : (146, 7): Keyword 'end' expected.
+# Error: COMP96_0016: maze.vhd : (146, 12): Design unit declaration expected.
+# Compile failure 11 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Error: COMP96_0015: maze.vhd : (171, 5): '=>' expected.
+# Error: COMP96_0019: maze.vhd : (175, 6): Keyword 'if' expected.
+# Error: COMP96_0015: maze.vhd : (175, 6): ';' expected.
+# Error: COMP96_0019: maze.vhd : (184, 5): Keyword 'process' expected.
+# Error: COMP96_0019: maze.vhd : (184, 15): Keyword 'end' expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Error: COMP96_0015: maze.vhd : (171, 5): '=>' expected.
+# Error: COMP96_0019: maze.vhd : (175, 6): Keyword 'if' expected.
+# Error: COMP96_0015: maze.vhd : (175, 6): ';' expected.
+# Error: COMP96_0019: maze.vhd : (184, 5): Keyword 'process' expected.
+# Error: COMP96_0019: maze.vhd : (184, 15): Keyword 'end' expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Error: COMP96_0015: maze.vhd : (171, 6): '=>' expected.
+# Error: COMP96_0019: maze.vhd : (175, 6): Keyword 'if' expected.
+# Error: COMP96_0015: maze.vhd : (175, 6): ';' expected.
+# Error: COMP96_0019: maze.vhd : (184, 5): Keyword 'process' expected.
+# Error: COMP96_0019: maze.vhd : (184, 15): Keyword 'end' expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  46.0 [ms]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Error: COMP96_0015: maze.vhd : (171, 6): '=>' expected.
+# Error: COMP96_0019: maze.vhd : (175, 6): Keyword 'if' expected.
+# Error: COMP96_0015: maze.vhd : (175, 6): ';' expected.
+# Error: COMP96_0019: maze.vhd : (184, 5): Keyword 'process' expected.
+# Error: COMP96_0019: maze.vhd : (184, 15): Keyword 'end' expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Error: COMP96_0015: maze.vhd : (171, 6): '=>' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Error: COMP96_0122: maze.vhd : (38, 71): Symbol "DONE" has already been declared in this scope.
+# Error: COMP96_0077: maze.vhd : (49, 30): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0078: maze.vhd : (65, 7): Unknown identifier "resetn".
+# Error: COMP96_0133: maze.vhd : (65, 7): Cannot find object declaration.
+# Error: COMP96_0077: maze.vhd : (65, 7): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: maze.vhd : (68, 27): Unknown identifier "psuedo_rand".
+# Error: COMP96_0133: maze.vhd : (68, 27): Cannot find object declaration.
+# Error: COMP96_0104: maze.vhd : (68, 27): Undefined type of expression.
+# Error: COMP96_0078: maze.vhd : (79, 4): Unknown identifier "curent_state".
+# Error: COMP96_0133: maze.vhd : (79, 4): Cannot find object declaration.
+# Error: COMP96_0078: maze.vhd : (81, 4): Unknown identifier "n_done".
+# Error: COMP96_0133: maze.vhd : (81, 4): Cannot find object declaration.
+# Error: COMP96_0393: maze.vhd : (165, 24): Cannot read output : "done".
+# Error: COMP96_0617: maze.vhd : (165, 24): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'dfs_states'.
+# Error: COMP96_0393: maze.vhd : (167, 10): Cannot read output : "done".
+# Error: COMP96_0279: maze.vhd : (167, 10): Choice in selected assignments and case statements must be locally static.
+# Error: COMP96_0083: maze.vhd : (167, 10): The type of a choice expression does not match the case expression.
+# Error: COMP96_0301: maze.vhd : (84, 4): The choice 'others' must be present when all alternatives are not covered.
+# Compile failure 18 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Error: COMP96_0015: maze.vhd : (171, 6): '=>' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Error: COMP96_0122: maze.vhd : (38, 71): Symbol "DONE" has already been declared in this scope.
+# Error: COMP96_0077: maze.vhd : (49, 30): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0078: maze.vhd : (65, 7): Unknown identifier "resetn".
+# Error: COMP96_0133: maze.vhd : (65, 7): Cannot find object declaration.
+# Error: COMP96_0077: maze.vhd : (65, 7): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: maze.vhd : (68, 27): Unknown identifier "psuedo_rand".
+# Error: COMP96_0133: maze.vhd : (68, 27): Cannot find object declaration.
+# Error: COMP96_0104: maze.vhd : (68, 27): Undefined type of expression.
+# Error: COMP96_0078: maze.vhd : (79, 4): Unknown identifier "curent_state".
+# Error: COMP96_0133: maze.vhd : (79, 4): Cannot find object declaration.
+# Error: COMP96_0078: maze.vhd : (81, 4): Unknown identifier "n_done".
+# Error: COMP96_0133: maze.vhd : (81, 4): Cannot find object declaration.
+# Error: COMP96_0393: maze.vhd : (165, 24): Cannot read output : "done".
+# Error: COMP96_0617: maze.vhd : (165, 24): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'dfs_states'.
+# Error: COMP96_0393: maze.vhd : (167, 10): Cannot read output : "done".
+# Error: COMP96_0279: maze.vhd : (167, 10): Choice in selected assignments and case statements must be locally static.
+# Error: COMP96_0083: maze.vhd : (167, 10): The type of a choice expression does not match the case expression.
+# Error: COMP96_0301: maze.vhd : (84, 4): The choice 'others' must be present when all alternatives are not covered.
+# Compile failure 18 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Error: COMP96_0015: maze.vhd : (171, 6): '=>' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Error: COMP96_0015: maze.vhd : (171, 6): '=>' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Error: COMP96_0015: maze.vhd : (171, 6): '=>' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Error: COMP96_0122: maze.vhd : (38, 71): Symbol "DONE" has already been declared in this scope.
+# Error: COMP96_0077: maze.vhd : (49, 30): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0078: maze.vhd : (65, 7): Unknown identifier "resetn".
+# Error: COMP96_0133: maze.vhd : (65, 7): Cannot find object declaration.
+# Error: COMP96_0077: maze.vhd : (65, 7): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: maze.vhd : (68, 27): Unknown identifier "psuedo_rand".
+# Error: COMP96_0133: maze.vhd : (68, 27): Cannot find object declaration.
+# Error: COMP96_0104: maze.vhd : (68, 27): Undefined type of expression.
+# Error: COMP96_0078: maze.vhd : (79, 4): Unknown identifier "curent_state".
+# Error: COMP96_0133: maze.vhd : (79, 4): Cannot find object declaration.
+# Error: COMP96_0078: maze.vhd : (81, 4): Unknown identifier "n_done".
+# Error: COMP96_0133: maze.vhd : (81, 4): Cannot find object declaration.
+# Error: COMP96_0393: maze.vhd : (165, 24): Cannot read output : "done".
+# Error: COMP96_0617: maze.vhd : (165, 24): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'dfs_states'.
+# Error: COMP96_0393: maze.vhd : (167, 10): Cannot read output : "done".
+# Error: COMP96_0279: maze.vhd : (167, 10): Choice in selected assignments and case statements must be locally static.
+# Error: COMP96_0083: maze.vhd : (167, 10): The type of a choice expression does not match the case expression.
+# Error: COMP96_0301: maze.vhd : (84, 4): The choice 'others' must be present when all alternatives are not covered.
+# Compile failure 18 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Error: COMP96_0077: maze.vhd : (49, 30): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0078: maze.vhd : (65, 7): Unknown identifier "resetn".
+# Error: COMP96_0133: maze.vhd : (65, 7): Cannot find object declaration.
+# Error: COMP96_0077: maze.vhd : (65, 7): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: maze.vhd : (68, 27): Unknown identifier "psuedo_rand".
+# Error: COMP96_0133: maze.vhd : (68, 27): Cannot find object declaration.
+# Error: COMP96_0104: maze.vhd : (68, 27): Undefined type of expression.
+# Error: COMP96_0078: maze.vhd : (79, 4): Unknown identifier "curent_state".
+# Error: COMP96_0133: maze.vhd : (79, 4): Cannot find object declaration.
+# Error: COMP96_0078: maze.vhd : (81, 4): Unknown identifier "n_done".
+# Error: COMP96_0133: maze.vhd : (81, 4): Cannot find object declaration.
+# Compile failure 11 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Error: COMP96_0015: maze.vhd : (171, 6): '=>' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Error: COMP96_0015: maze.vhd : (172, 6): '=>' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Error: COMP96_0015: maze.vhd : (172, 6): '=>' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Error: COMP96_0077: maze.vhd : (49, 30): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0078: maze.vhd : (66, 7): Unknown identifier "resetn".
+# Error: COMP96_0133: maze.vhd : (66, 7): Cannot find object declaration.
+# Error: COMP96_0077: maze.vhd : (66, 7): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: maze.vhd : (69, 27): Unknown identifier "psuedo_rand".
+# Error: COMP96_0133: maze.vhd : (69, 27): Cannot find object declaration.
+# Error: COMP96_0104: maze.vhd : (69, 27): Undefined type of expression.
+# Error: COMP96_0078: maze.vhd : (80, 4): Unknown identifier "curent_state".
+# Error: COMP96_0133: maze.vhd : (80, 4): Cannot find object declaration.
+# Error: COMP96_0078: maze.vhd : (82, 4): Unknown identifier "n_done".
+# Error: COMP96_0133: maze.vhd : (82, 4): Cannot find object declaration.
+# Compile failure 11 Errors 0 Warnings  Analysis time :  46.0 [ms]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Error: COMP96_0078: maze.vhd : (66, 7): Unknown identifier "resetn".
+# Error: COMP96_0133: maze.vhd : (66, 7): Cannot find object declaration.
+# Error: COMP96_0077: maze.vhd : (66, 7): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: maze.vhd : (69, 27): Unknown identifier "psuedo_rand".
+# Error: COMP96_0133: maze.vhd : (69, 27): Cannot find object declaration.
+# Error: COMP96_0104: maze.vhd : (69, 27): Undefined type of expression.
+# Error: COMP96_0078: maze.vhd : (80, 4): Unknown identifier "curent_state".
+# Error: COMP96_0133: maze.vhd : (80, 4): Cannot find object declaration.
+# Error: COMP96_0078: maze.vhd : (82, 4): Unknown identifier "n_done".
+# Error: COMP96_0133: maze.vhd : (82, 4): Cannot find object declaration.
+# Compile failure 10 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Error: COMP96_0078: maze.vhd : (66, 7): Unknown identifier "resetn".
+# Error: COMP96_0133: maze.vhd : (66, 7): Cannot find object declaration.
+# Error: COMP96_0077: maze.vhd : (66, 7): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: maze.vhd : (69, 27): Unknown identifier "psuedo_rand".
+# Error: COMP96_0133: maze.vhd : (69, 27): Cannot find object declaration.
+# Error: COMP96_0104: maze.vhd : (69, 27): Undefined type of expression.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Error: COMP96_0078: maze.vhd : (69, 27): Unknown identifier "psuedo_rand".
+# Error: COMP96_0133: maze.vhd : (69, 27): Cannot find object declaration.
+# Error: COMP96_0104: maze.vhd : (69, 27): Undefined type of expression.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Error: COMP96_0015: maze.vhd : (172, 6): '=>' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Error: COMP96_0617: maze.vhd : (172, 23): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'dfs_states'.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/TestBench/mazegenerator_TB.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/TestBench/mazegenerator_TB.vhd
+# Compile Entity "MazeGenerator_tb"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+SetActiveLib -work
+comp -include "$dsn\src\maze.vhd" 
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$dsn\src\TestBench\mazegenerator_TB.vhd" 
+# File: C:/My_Designs/last_project_maze/maze_randome/src/TestBench/mazegenerator_TB.vhd
+# Compile Entity "MazeGenerator_tb"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+asim +access +r TESTBENCH_FOR_mazegenerator 
+# ELBREAD: Elaboration process.
+# ULM: Warning: ULM_0021 Architecture "tb_architecture" of entity "maze_randome.mazegenerator_tb" is not up-to-date. Please recompile file "C:\My_Designs\last_project_maze\maze_randome/src/TestBench/mazegenerator_TB.vhd".
+# ELBREAD: Error: Architecture 'TB_ARCHITECTURE' of entity 'mazegenerator_tb' not found in library 'maze_randome'.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: VSIM: cannot select specified top-level
+# Error: DO_001 in file C:\My_Designs\last_project_maze\maze_randome\src\TestBench\mazegenerator_TB_runtest.do line 4
+# Error: Cannot run C:\My_Designs\last_project_maze\maze_randome\src\TestBench\mazegenerator_TB_runtest.do
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/TestBench/mazegenerator_TB.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/TestBench/mazegenerator_TB.vhd
+# Compile Entity "mazegenerator_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "mazegenerator_tb"
+# Compile Configuration "TESTBENCH_FOR_mazegenerator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+SetActiveLib -work
+comp -include "$dsn\src\maze.vhd" 
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+comp -include "$dsn\src\TestBench\mazegenerator_TB.vhd" 
+# File: C:/My_Designs/last_project_maze/maze_randome/src/TestBench/mazegenerator_TB.vhd
+# Compile Entity "mazegenerator_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "mazegenerator_tb"
+# Compile Configuration "TESTBENCH_FOR_mazegenerator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+asim +access +r TESTBENCH_FOR_mazegenerator 
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6624 kB (elbread=427 elab2=6052 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\last_project_maze\maze_randome\src\wave.asdb
+#  1:15 AM, Saturday, January 18, 2025
+#  Simulation has been initialized
+wave 
+wave -noreg clk
+wave -noreg reset
+wave -noreg done_maze
+wave -noreg maze_out
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\mazegenerator_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_mazegenerator 
+# VSIM: 4 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/last_project_maze/maze_randome/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Error: COMP96_0015: maze.vhd : (22, 57): ';' expected.
+# Error: COMP96_0015: maze.vhd : (35, 28): ';' expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/maze.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/maze.vhd
+# Compile Entity "MazeGenerator"
+# Compile Architecture "Behavioral" of Entity "MazeGenerator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -dbg -e 100 -work maze_randome -2002  $dsn/src/TestBench/mazegenerator_TB.vhd
+# File: C:/My_Designs/last_project_maze/maze_randome/src/TestBench/mazegenerator_TB.vhd
+# Compile Entity "mazegenerator_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "mazegenerator_tb"
+# Compile Configuration "TESTBENCH_FOR_mazegenerator"
+# Compile success 0 Errors 0 Warnings  Analysis time
