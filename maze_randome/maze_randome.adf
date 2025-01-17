@@ -1,0 +1,32 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=maze_randome
+[Library]
+maze_randome=.\maze_randome\maze_randome.lib
+[$LibMap$]
+maze_randome=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/maze.vhd=-1
+TestBench/mazegenerator_TB.vhd=-1
+TestBench/mazegenerator_TB_runtest.do=-1
+[Files.Data]
+.\src\maze.vhd=VHDL Source Code
+.\src\TestBench\mazegenerator_TB.vhd=VHDL Test Bench
+.\src\TestBench\mazegenerator_TB_runtest.do=Macro
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
+[Groups]
+TestBench=1

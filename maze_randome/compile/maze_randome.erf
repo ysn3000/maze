@@ -1,0 +1,5 @@
+MESSAGE "File: C:/My_Designs/last_project_maze/maze_randome/src/TestBench/mazegenerator_TB.vhd" 
+MESSAGE "Compile Entity "mazegenerator_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "mazegenerator_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_mazegenerator"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]" 
