@@ -1,6 +1,8 @@
-library IEEE;
+library IEEE;		   
+library work;
 use IEEE.std_logic_1164.all;
-use IEEE.numeric_std.all;
+use IEEE.numeric_std.all;	
+use work.maze_package.all;
 
 
 entity MazeGenerator is
@@ -11,19 +13,15 @@ entity MazeGenerator is
 	port (
 	clk,reset : in std_logic;	 
 	done_maze : out std_logic;
-	maze_out : out std_logic_vector(rows * cols -1 downto 0)
+	maze_out : out maze_array(0 to rows-1, 0 to cols-1)
 		);
 end MazeGenerator;
 
-architecture Behavioral of MazeGenerator is		
+architecture Behavioral of MazeGenerator is	
+
 
 	--maze arrays
-	type cell is record
-		right_wall, down_wall, left_wall, up_wall : std_logic ; 
-		visited :std_logic;	
-	end record;	
-	type maze_array is array(0 to rows-1, 0 to cols -1) of cell;
-	signal maze : maze_array := (others	=> (others =>(
+	signal maze :  maze_array(0 to rows-1, 0 to cols-1) := (others	=> (others =>(
 						visited => '0',
 						right_wall => '1' ,
 						down_wall  => '1',
@@ -31,13 +29,14 @@ architecture Behavioral of MazeGenerator is
 						up_wall	   => '1'))); 
 	
 	--stack
-	type stack_array is array(0 to rows*cols -1 ) of integer range 0 to rows*cols -1;
-	signal stack :stack_array := (others => 0);
+	signal stack :stack_arr(0 to rows * cols - 1) := (others => (
+														row => 0,
+														col => 0));
 	signal stack_pointer : integer range 0 to cols*rows := 0;
 	
 	--cols and rows
-	signal current_cols : integer range 0 to cols -1 := 0;
-	signal current_rows : integer range 0 to rows -1 := 0;
+	signal next_cols, current_cols : integer range 0 to cols -1 := 0;
+	signal next_rows, current_rows : integer range 0 to rows -1 := 0;
 	
 	--dfs fsm 
 	type dfs_states is (INIT, VISITED, CHECK_NEIGHBORS, MOVE, BACKTRACK, DONE);
@@ -58,7 +57,7 @@ architecture Behavioral of MazeGenerator is
 
 	
 begin  
-	done_maze <= m_done;
+	
 	
 	process(clk)
 		-- maximal length 32-bit xnor LFSR
@@ -98,29 +97,37 @@ begin
 					current_state <= VISITED; 	
 				when VISITED => 
 					maze(current_rows, current_cols).visited <= '1';
-					stack(stack_pointer) <= current_rows * current_cols;
+					stack(stack_pointer).row <=  current_rows ;
+					stack(stack_pointer).col <= current_cols ;
+					
 					stack_pointer <= stack_pointer + 1;
 					current_state <= CHECK_NEIGHBORS; 
 					
-				when CHECK_NEIGHBORS =>	   
-					if current_rows > 0 and maze(current_rows - 1, current_cols).visited = '0' then
+				when CHECK_NEIGHBORS =>	  
+					neighbors_count <= 0; -- Reset count at the beginning  
+				
+					if current_cols > 0 and maze(current_rows, current_cols - 1).visited = '0' and neighbors_count <= 3then
 						--left
 						neighbors(neighbors_count) <= 2;
 						neighbors_count <= neighbors_count + 1;
-					elsif  current_cols > 0 and maze(current_rows, current_cols - 1).visited = '0' then	
+					end if;
+					
+					if	current_rows > 0 and maze(current_rows - 1, current_cols).visited = '0' and neighbors_count <= 3then	
 						--up
 						neighbors(neighbors_count) <= 3;
 						neighbors_count <= neighbors_count + 1;
-					elsif  current_rows < rows - 1 and maze(current_rows + 1, current_cols).visited = '0' then	
+					end if;
+					
+					if  current_cols < cols - 1 and  maze(current_rows, current_cols + 1).visited = '0' and neighbors_count <= 3 then	
 						--right
 						neighbors(neighbors_count) <= 0;
 						neighbors_count <= neighbors_count + 1;
-					elsif  current_cols < cols -1 and maze(current_rows, current_cols + 1).visited = '0' then	
+					end if;			  
+					
+					if   current_rows < rows -1 and maze(current_rows + 1, current_cols).visited = '0' and neighbors_count <= 3 then	
 						--down
 						neighbors(neighbors_count) <= 1;
-						neighbors_count <= neighbors_count + 1;	 
-					else	
-						neighbors_count <= 0;	
+						neighbors_count <= neighbors_count + 1;	
 					
 					end if;	 
 					
@@ -141,31 +148,44 @@ begin
 					
 				when MOVE =>  
 					case  next_direction is 
-						when RIGHT => 	--right break wall
-							maze(current_rows, current_cols).right_wall <= '0';
-							maze(current_rows + 1, current_cols).left_wall <= '0';
-							current_rows <= current_rows + 1;
-						when DOWN =>   --down break wall
-							maze(current_rows, current_cols).down_wall <= '0';
-							maze(current_rows, current_cols + 1).up_wall <= '0';
-							current_cols <= current_cols + 1;
-						when LEFT =>   --left break wall
-							maze(current_rows, current_cols).left_wall <= '0';
-							maze(current_rows - 1, current_cols).right_wall <= '0';
-							current_rows <= current_rows - 1;
+						when RIGHT => 	--right break wall 
+							 if current_cols < cols - 1 and  maze(current_rows, current_cols + 1).visited = '0' then
+								maze(current_rows, current_cols).right_wall <= '0';
+								maze(current_rows, current_cols + 1).left_wall <= '0';
+								current_cols <= current_cols + 1;					  
+							 end if;	 
+						when DOWN =>   --down break wall   
+							if 	 current_rows < rows -1 and maze(current_rows + 1, current_cols).visited = '0' then 
+								maze(current_rows, current_cols).down_wall <= '0';
+								maze(current_rows + 1, current_cols).up_wall <= '0';
+								current_rows <= current_rows + 1;
+							
+							end if;	
+						when LEFT =>   --left break wall	  
+							if current_cols > 0 and maze(current_rows, current_cols - 1).visited = '0'then 
+								maze(current_rows, current_cols).left_wall <= '0';
+								maze(current_rows, current_cols - 1).right_wall <= '0';
+								current_cols <= current_cols - 1;
+							
+							end if;	
 						when UP =>	   --up break wall
-							maze(current_rows, current_cols).up_wall <= '0';
-							maze(current_rows, current_cols - 1).down_wall <= '0';
-							current_cols <= current_cols - 1;
+							if 	current_rows > 0 and maze(current_rows - 1, current_cols).visited = '0' then
+								maze(current_rows, current_cols).up_wall <= '0';
+								maze(current_rows - 1, current_cols).down_wall <= '0';
+								current_rows <= current_rows - 1;
+							
+							end if;	
 						 when others =>	 null;
 					end case;
 					current_state <= VISITED;  
 					
 				when BACKTRACK =>
 					if stack_pointer > 0 then 
+					  
+					
 						stack_pointer <= stack_pointer - 1;
-						current_rows <= stack(stack_pointer) / cols;
-						current_cols <= stack(stack_pointer) / rows;
+						current_rows <= stack(stack_pointer).row;
+						current_cols <= stack(stack_pointer).col;
 						current_state <= CHECK_NEIGHBORS;
 					else
 						current_state <= DONE;
@@ -179,7 +199,10 @@ begin
 			end case;
 		end if;	
 			
-	end process;	
+	end process;			
+	
+		done_maze <= m_done;
+		maze_out <= maze;
 
 	
 end Behavioral;

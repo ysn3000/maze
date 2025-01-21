@@ -16,16 +16,19 @@ LANGUAGE=VHDL
 REFRESH_FLOW=1
 FLOWTOOLS=NONE
 FAMILY=
+CDebugWatchList=
 [Files]
 /maze.vhd=-1
+/package_maz.vhd=-1
 TestBench/mazegenerator_TB.vhd=-1
 TestBench/mazegenerator_TB_runtest.do=-1
 [Files.Data]
 .\src\maze.vhd=VHDL Source Code
+.\src\package_maz.vhd=VHDL Source Code
 .\src\TestBench\mazegenerator_TB.vhd=VHDL Test Bench
 .\src\TestBench\mazegenerator_TB_runtest.do=Macro
 [HierarchyViewer]
-HierarchyInformation=
+HierarchyInformation=mazegenerator_tb|testbench_for_mazegenerator|1
 ShowHide=ShowTopLevel
 Selected=
 [Groups]

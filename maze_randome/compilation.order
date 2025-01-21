@@ -1,2 +1,3 @@
 .\src\maze.vhd
+.\src\package_maz.vhd
 .\src\TestBench\mazegenerator_TB.vhd

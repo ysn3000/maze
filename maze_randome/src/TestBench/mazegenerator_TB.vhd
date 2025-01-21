@@ -1,6 +1,8 @@
 library ieee;
-use ieee.NUMERIC_STD.all;
-use ieee.std_logic_1164.all;
+use ieee.NUMERIC_STD.all; 
+use IEEE.std_logic_1164.all;
+library maze_randome;
+use maze_randome.maze_package.all;
 
 	-- Add your library and packages declaration here ...
 
@@ -12,18 +14,16 @@ entity mazegenerator_tb is
 end mazegenerator_tb;
 
 architecture TB_ARCHITECTURE of mazegenerator_tb is
--- Component declaration of the tested unit	  
-	 constant clk_period : time := 10 ns;
-	
+	-- Component declaration of the tested unit
 	component mazegenerator
 		generic(
 		rows : INTEGER := 9;
 		cols : INTEGER := 9 );
 	port(
-		clk : in STD_LOGIC;
+		clk : in STD_LOGIC ;
 		reset : in STD_LOGIC;
 		done_maze : out STD_LOGIC;
-		maze_out : out STD_LOGIC_VECTOR(rows*cols-1 downto 0) );
+		maze_out : out maze_array(0 to rows-1,0 to cols-1) );
 	end component;
 
 	-- Stimulus signals - signals mapped to the input and inout ports of tested entity
@@ -31,9 +31,12 @@ architecture TB_ARCHITECTURE of mazegenerator_tb is
 	signal reset : STD_LOGIC;
 	-- Observed signals - signals mapped to the output ports of tested entity
 	signal done_maze : STD_LOGIC;
-	signal maze_out : STD_LOGIC_VECTOR(rows*cols-1 downto 0);
+	signal maze_out : maze_array(0 to rows-1,0 to cols-1);
 
-	-- Add your code here ...
+	-- Add your code here ... 
+	
+    -- Clock period constant
+    constant clk_period : time := 10 ns;
 
 begin
 
@@ -52,8 +55,8 @@ begin
 		);
 
 	-- Add your stimulus here ...
-	-- Clock process
-    clk_process: process
+	 -- Clock generation process
+    clk_process : process
     begin
         while true loop
             clk <= '0';
@@ -61,25 +64,27 @@ begin
             clk <= '1';
             wait for clk_period / 2;
         end loop;
-    end process;
+    end process clk_process;
 
-    -- Test process
-    stim_process: process
+    -- Stimulus process
+    stimulus_process : process
     begin
-        -- Initialize signals
+        -- Step 1: Apply reset
         reset <= '1';
-        wait for clk_period * 2;
+        wait for 2 * clk_period;
         reset <= '0';
 
-        -- Wait for the maze generation to complete
+        -- Step 2: Wait for maze generation to complete
         wait until done_maze = '1';
 
-        -- Add any additional test cases or checks here
-        assert false report "Test completed successfully." severity note;
+        -- Step 3: Optional checks or display
+        -- Add assertions or waveform inspection to validate maze_out contents
+        wait for 10 * clk_period;
+        assert false report "Testbench finished: Maze generation complete!" severity note;
 
+        -- Stop simulation
         wait;
-	end process;	
-		
+    end process stimulus_process;
 
 end TB_ARCHITECTURE;
 

@@ -1,7 +1,7 @@
-29
-~E 1 "../src/maze.vhd" 6 MazeGenerator
-~A 1 "../src/maze.vhd" 18 Behavioral
-~E 1 "../src/TestBench/mazegenerator_TB.vhd" 7 mazegenerator_tb
+152
+~E 1 "../src/maze.vhd" 8 MazeGenerator
+~A 1 "../src/maze.vhd" 20 Behavioral
+~E 1 "../src/TestBench/mazegenerator_TB.vhd" 9 mazegenerator_tb
 ~A 1 "../src/TestBench/mazegenerator_TB.vhd" 8 behavioral
-~A 1 "../src/TestBench/mazegenerator_TB.vhd" 14 TB_ARCHITECTURE
-~C 1 "../src/TestBench/mazegenerator_TB.vhd" 86 testbench_for_mazegenerator
+~A 1 "../src/TestBench/mazegenerator_TB.vhd" 16 TB_ARCHITECTURE
+~C 1 "../src/TestBench/mazegenerator_TB.vhd" 91 testbench_for_mazegenerator
